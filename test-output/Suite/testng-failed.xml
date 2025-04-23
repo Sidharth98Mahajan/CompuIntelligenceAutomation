@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LoginTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="Tests.clickOptionTest">
+        <methods>
+          <include name="ClickLeftBarOptions"/>
+          <include name="testLoginWithValidCredentials"/>
+          <include name="setUp"/>
+          <include name="logout"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Tests.clickOptionTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-23T17:08:14 IST" name="Suite" finished-at="2025-04-23T17:10:35 IST" duration-ms="141717">
+    <groups>
+    </groups>
+    <test started-at="2025-04-23T17:08:14 IST" name="LoginTest" finished-at="2025-04-23T17:10:35 IST" duration-ms="141717">
+      <class name="Tests.clickOptionTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Tests.clickOptionTest@3590fc5b]" started-at="2025-04-23T17:08:14 IST" name="setup" finished-at="2025-04-23T17:08:19 IST" duration-ms="5589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.clickOptionTest@3590fc5b]" started-at="2025-04-23T17:08:19 IST" name="setUp" finished-at="2025-04-23T17:08:19 IST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginWithValidCredentials()[pri:0, instance:Tests.clickOptionTest@3590fc5b]" started-at="2025-04-23T17:08:19 IST" name="testLoginWithValidCredentials" finished-at="2025-04-23T17:08:28 IST" duration-ms="8178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithValidCredentials -->
+        <test-method signature="ClickLeftBarOptions()[pri:1, instance:Tests.clickOptionTest@3590fc5b]" started-at="2025-04-23T17:08:28 IST" name="ClickLeftBarOptions" finished-at="2025-04-23T17:10:34 IST" duration-ms="126326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickLeftBarOptions -->
+        <test-method signature="logout()[pri:5, instance:Tests.clickOptionTest@3590fc5b]" started-at="2025-04-23T17:10:34 IST" name="logout" finished-at="2025-04-23T17:10:35 IST" duration-ms="804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.clickOptionTest@3590fc5b]" started-at="2025-04-23T17:10:35 IST" name="tearDown" finished-at="2025-04-23T17:10:35 IST" duration-ms="478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.clickOptionTest -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- Suite -->
+</testng-results>
